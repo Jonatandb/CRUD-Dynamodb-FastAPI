@@ -23,6 +23,6 @@ https://www.youtube.com/watch?v=vm2vXdTfZI8
 ## Start app
 - uvicorn main:app --reload --port 80 --env-file=".env"
 
-## Visit root URL
-- http://localhost/
+## Visit Swagger to interact
+- http://localhost/docs
 
