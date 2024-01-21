@@ -1,8 +1,6 @@
-
-
 # Usar Dynamodb-local y Dynamodb-admin
 
-## Forma 1:
+## Forma 1 - Con dynamodb-admin corriendo con NodeJS:
 - Descargar imagen de docker de dynamodb-local:
   - docker pull amazon/dynamodb-local
 
@@ -24,7 +22,7 @@ Fuentes:
 - https://www.npmjs.com/package/dynamodb-admin
 
 
-## Forma 2:
+## Forma 2 - Ambos corriendo desde Docker:
 - Descargar imagen de docker que ya posee dynamodb-local + dynamodb-admin:
   - docker pull instructure/dynamo-local-admin
 
